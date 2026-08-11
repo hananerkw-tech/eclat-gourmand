@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Éclat Gourmand - حلويات ومملحات</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Éclat Gourmand</div>
+    <nav>
+      <a href="#home" data-ar="الرئيسية" data-fr="Accueil">الرئيسية</a>
+      <a href="#menu" data-ar="المنيو" data-fr="Menu">المنيو</a>
+      <a href="#gallery" data-ar="المعرض" data-fr="Galerie">المعرض</a>
+      <a href="#contact" data-ar="اتصل بنا" data-fr="Contact">اتصل بنا</a>
+    </nav>
+    <div class="header-actions">
+      <button id="lang-switch">FR</button>
+      <a href="https://wa.me/213799290508" class="whatsapp-btn">0799290508</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1 data-ar="نضيف لمسة راقية لحلوياتكم" data-fr="L'éclat de vos moments gourmands">نضيف لمسة راقية لحلوياتكم</h1>
+    <a href="https://wa.me/213799290508?text=Bonjour" class="btn-gold" data-ar="اطلب عبر واتساب" data-fr="Commander sur WhatsApp">اطلب عبر واتساب</a>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2 data-ar="المنيو" data-fr="Notre Menu">المنيو</h2>
+    <div class="menu-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="cake">
+        <h3 data-ar="كيك مناسبات" data-fr="Gâteau d'occasion">كيك مناسبات</h3>
+        <p data-ar="كيك فاخر بتصميم حسب الطلب" data-fr="Gâteau de luxe sur commande">كيك فاخر بتصميم حسب الطلب</p>
+        <span>3500 دج</span>
+        <button class="btn-add" data-ar="أضف للسلة" data-fr="Ajouter au panier">أضف للسلة</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="salé">
+        <h3 data-ar="مملحات" data-fr="Salés">مملحات</h3>
+        <p data-ar="صواني مملحات للمناسبات" data-fr="Plateaux salés pour événements">صواني مملحات للمناسبات</p>
+        <span>2000 دج</span>
+        <button class="btn-add" data-ar="أضف للسلة" data-fr="Ajouter au panier">أضف للسلة</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2 data-ar="معرض الإنجازات" data-fr="Galerie de nos réalisations">معرض الإنجازات</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/400x300" alt="">
+        <h4 data-ar="طاولة عرس" data-fr="Table de mariage">طاولة عرس</h4>
+        <button class="btn-order-similar" data-ar="اطلب مثل هذا" data-fr="Commander un similaire">اطلب مثل هذا</
